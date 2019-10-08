@@ -22,13 +22,13 @@ int main()
   cout<<"What is the item?";
   cin>>item;
   
-  if (numItems <= 5)
+  if (numItems <= 4)
   {
   list[numItems] = item;
   
   numItems++;
   }
-  if(numItems > 5)
+  if(numItems > 4)
  {
   cout<<"You'll need a bigger list!";
  }
