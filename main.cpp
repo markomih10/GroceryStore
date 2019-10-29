@@ -16,7 +16,8 @@ int main()
                 cout<<"\n==GROCERY LIST MANAGER==";
                 cout<<"\nEnter your choice: ";
                 cout<<"\n (A)dd an item";
-                if (list.size() > 0)
+        }
+                while(list.size() > 0);
                 {
                     cout<<"\n (D)elete last item";
                 }
@@ -53,8 +54,10 @@ int main()
         {
                 cout<<"==ITEMS TO BUY=="<<endl;
                 for(int i=0; i < list.size(); i++) {
-                        cout<<number+1<<" "<<list.at(i)<<endl;
+                        cout<<counter+1<<" "<<list.at(i)<<endl;
                         counter++;
                 }
-        } return 0;
-   }  
+        }
+         
+        return 0;
+}    
